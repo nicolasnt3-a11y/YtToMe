@@ -35,11 +35,6 @@ Application locale en Python (Tkinter) pour télécharger une ou plusieurs vidé
 - Avec FFmpeg disponible, la **fusion audio/vidéo** est assurée et vous obtenez la **720p** quand YouTube fournit le flux.
 - Si tout échoue, l’app bascule en « flux progressif ≤720p » (sans FFmpeg), ce qui peut être de qualité inférieure.
 
-### Icône et image
-
-- Placez un fichier PNG à la racine du dossier (ex: `logo.png`).
-- L’app l’utilise comme **icône de fenêtre** et l’affiche **sous la barre de progression** (redimensionné automatiquement).
-
 ### Utilisation (multi-URLs)
 
 1. Collez une ou plusieurs URLs YouTube, **une par ligne**.
