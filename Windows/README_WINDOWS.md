@@ -20,9 +20,6 @@ Version Windows autonome (GUI) pour télécharger des vidéos YouTube en 720p.
 3. Le script installe les dépendances, génère `dist/YT-to-me.exe`.
 4. Si un PNG est présent dans ce dossier, il sert d'icône pour l'EXE.
 
-## Icône et image
-- Placez un fichier `.png` dans `Windows/` pour l'icône et l'image affichée sous la barre de progression.
-- Le PNG est aussi utilisé comme icône de fenêtre dans l'app.
 
 ## FFmpeg automatique
 - L'app cherche `ffmpeg.exe` à côté de l'EXE, dans le PATH, ou télécharge un binaire via `imageio-ffmpeg` lors de l'exécution.
